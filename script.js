@@ -20,9 +20,8 @@ function sendToChatGPT() {
 
   let body = {
     model: "gpt-3.5-turbo",
-    messages: [{ role: "user", content: value }],
-    tempreture: "1",
-  };
+    messages: [{ role: "user", content: value }]
+    };
 
   let headers = {
     Authorization: "Bearer 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",
